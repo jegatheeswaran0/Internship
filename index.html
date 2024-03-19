@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Member Team Page</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .company-info {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .team {
+      margin-bottom: 40px;
+    }
+    .team-name {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #fff;
+      background-color: #4CAF50;
+      padding: 5px 5px;
+      border-radius: 10px;
+      display:inline;
+      text-transform: uppercase;
+      box-shadow: 0 4px 6px rgba(0, 0, 0,0.1);
+    }
+    .employee-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .employee-card {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      width: calc(20% - 40px); /* 5 columns with some margin */
+    }
+    .employee-card:hover {
+      transform: translateY(-5px);
+    }
+    .employee-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px;
+      border: 5px solid #4CAF50;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .employee-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .employee-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .employee-role {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="company-info">
+      <h1>Jegan's Info-Tech Private Limited</h1>
+      <h3>About Us</h3>
+      <p>
+        At Jegan's Info-Tech, we're passionate about leveraging technology to empower businesses and individuals alike. Founded in 2001, we have been at the forefront of innovation, delivering cutting-edge software solutions that drive efficiency, productivity, and growth.
+      </p>
+       <h3>Our Mission</h3>
+       <p>
+        
+        Our mission is simple to create intuitive, reliable, and scalable software solutions that address the diverse needs of our clients. We believe in harnessing the power of technology to simplify complex processes, enhance user experiences, and ultimately, transform businesses for the better.</p>
+    </div>
+    <hr style="border-bottom:dotted" />
+    <center>
+    <h2>Meet Our Team</h2>
+    </center>
+    <br>
+    <!-- Team 1 -->
+    <div class="team">
+      <center>
+      <h2 class="team-name">Founders</h2>
+      </center>
+      <div class="employee-list">
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 1">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">Mr.S.Jegatheeswaran</div>
+            <div class="employee-role">Founder CEO</div>
+          </div>
+        </div>
+        <!-- Add more employee cards as needed -->
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 2">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">Mrs.J.Dharani</div>
+            <div class="employee-role">Co-Founder CEO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team 2 -->
+    <div class="team">
+      <center>
+      <h2 class="team-name">Developement Team</h2>
+      </center>
+      <div class="employee-list">
+        <!-- Add employee cards for Team 2 -->
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">S.Saravanan</div>
+            <div class="employee-role">Full Stack Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">K.Kannan</div>
+            <div class="employee-role">Full Stack Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">S.Mailraj</div>
+            <div class="employee-role">Seniour Frount-End Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">S.Jegan</div>
+            <div class="employee-role">Seniour Back-End Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">K.Aarthy</div>
+            <div class="employee-role">Angular Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">K.Abinaya</div>
+            <div class="employee-role">Python Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">S.Shalini</div>
+            <div class="employee-role">React Native Developer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">M.Harini</div>
+            <div class="employee-role">Mern Stack Developer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Team 3 -->
+    <div class="team">
+      <center>
+      <h2 class="team-name">Research and Marketing Team</h2>
+      </center>
+      <div class="employee-list">
+        <!-- Add employee cards for Team 3 -->
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">K.Ajith</div>
+            <div class="employee-role">Project Manager</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">M.Suriya</div>
+            <div class="employee-role">Research Analyst</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">V.Siva</div>
+            <div class="employee-role">Marketing Engineer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">R.Dhanush</div>
+            <div class="employee-role">Sales Engineer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">S.Ramalakshmi</div>
+            <div class="employee-role">Businees Analyst</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">K.Ganeshwari</div>
+            <div class="employee-role">Sales Engineer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">R.Anusiya</div>
+            <div class="employee-role">Product Engineer</div>
+          </div>
+        </div>
+        <div class="employee-card">
+          <div class="employee-photo">
+            <img src="image/employee-female.png" alt="Employee 3">
+          </div>
+          <div class="employee-details">
+            <div class="employee-name">S.Gayathiri</div>
+            <div class="employee-role">Research Analyst</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
